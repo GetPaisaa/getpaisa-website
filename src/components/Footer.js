@@ -105,7 +105,7 @@ const Footer = () => {
                                     </div>
 
                                     <div className='flex flex-col gap-2'>
-                                        <h3 className='font-normal text-[20px] text-primary'>Propkar securities pvt Ltd</h3>
+                                        <h3 className='font-normal text-[20px] text-primary'>Propkar Securities Pvt Ltd</h3>
                                         <span className='font-normal'>113, 3rd floor Priya enclave ,Karkardooma, delhi, 110092</span>
                                         <span className='font-normal'>Phone :<a href='tel:9999494925'>+919999494925</a></span>
                                         <span className='font-normal'>GST :07AADCP3732A1ZX</span>
