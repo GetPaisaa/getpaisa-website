@@ -25,12 +25,13 @@ const Phone = () => {
           reset();
           setTimeout(()=>{
             setSuccess(false);
-          },[5000]);
+          },[5000]); 
         }
       }, [formState, submittedData, reset]);
 
     return (
         <form className="relative" onSubmit={handleSubmit(onSubmit)}>
+            
             <input
                 type="number"
                 {...register("phone", { required: true })}
