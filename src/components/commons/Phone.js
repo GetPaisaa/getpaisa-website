@@ -31,7 +31,7 @@ const Phone = () => {
 
     return (
         <form className="relative" onSubmit={handleSubmit(onSubmit)}>
-            
+
             <input
                 type="number"
                 {...register("phone", { required: true })}
@@ -44,8 +44,7 @@ const Phone = () => {
             >
                 <div>{!loading?<span>Get Loan</span>:<span>Loading...</span>}</div>
             </button>
-            <span className={`${success?'block':'hidden'} mt-3 text-start text-primary`}>Loan applied successfully</span>
-            {/* <span className={`mt-4 text-start text-primary`}>Loan applied successfully</span> */}
+            <span className={`${success?'block':'hidden'} mt-3 text-start text-primary`}>Loan applied successfully</span> 
         </form>
     )
 }
