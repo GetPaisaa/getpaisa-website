@@ -29,12 +29,12 @@ const Payment = () => {
   return (
     <div>
 
-      <motion.section
-        ref={ref}
+      <section
+        // ref={ref}
         className="pt-[100px]"
-        variants={boxVariant}
-        initial="hidden"
-        animate={control}
+        // variants={boxVariant}
+        // initial="hidden"
+        // animate={control}
       >
         <div className="container">
           <div className="flex flex-wrap items-center -mx-4">
@@ -93,9 +93,9 @@ const Payment = () => {
             </div>
           </div>
         </div>
-      </motion.section>
+      </section>
 
-      <motion.section 
+      <section 
       className="pt-14"
       ref={ref}
         variants={boxVariant1}
@@ -156,7 +156,7 @@ const Payment = () => {
             </div>
           </div>
         </div>
-      </motion.section>
+      </section>
 
     </div>
   )

@@ -3,6 +3,7 @@ import { React, useRef } from 'react'
 import { motion, useScroll } from "framer-motion"
 import Youtube from '../commons/Youtube';
 import DownloadNow from '../commons/DownloadNow';
+import Phone from '../commons/Phone';
 const Banner = () => {
 
     return (
@@ -50,16 +51,16 @@ const Banner = () => {
 
                                     <div className="flex items-center mt-10">
                                         <DownloadNow color={`bg-primary`}/>
-                                        {/* <a
-                                            href="#about"
-                                            className="bg-primary font-normal text-white rounded-xl py-5 px-6 md:px-10 transition-all hover:text-white hover:shadow-primary-hover mr-9"
-                                        >
-                                            Download App
-                                        </a> */}
 
                                         <Youtube/>
  
                                     </div>
+                                    <div className='md:w-2/4 w-full mt-10'>
+                                    <Phone/>
+                                    </div>
+                                    
+
+
                                 </motion.div>
                             </div>
                             <div

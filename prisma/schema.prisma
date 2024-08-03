@@ -31,3 +31,8 @@ model Launching {
   id    String @id @default(auto()) @map("_id") @db.ObjectId
   email String @unique
 }
+
+model Loan {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  phone String @unique
+}
