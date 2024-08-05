@@ -44,8 +44,7 @@ const LoanCalculator = () => {
             },
         ],
     };
-
-
+    
     const optionscolumnchart = {
         options: {
             chart: {
