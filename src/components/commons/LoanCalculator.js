@@ -260,7 +260,7 @@ const LoanCalculator = () => {
 
                             </div>
                         </div>
-
+                        
                         <div className="shadow-sm overflow-hidden my-10 ">
                             <table className="border-collapse table-Personal w-full text-sm">
                                 <thead>
