@@ -2,6 +2,7 @@ import React from 'react'
 import Drawer from './commons/Drawer'
 import Link from 'next/link'
 import DownloadNow from './commons/DownloadNow'
+import DownloadNowOutline from './commons/DownloadNowOutline'
 
 const Header = () => {
 
@@ -34,11 +35,11 @@ const Header = () => {
               <nav
                 className="hidden absolute py-4 lg:py-0 px-6 bg-white dark:bg-black shadow rounded-lg max-w-[250px] w-full lg:bg-transparent dark:lg:bg-transparent lg:max-w-full lg:w-full right-4 top-full lg:block lg:static lg:shadow-none"
               >
-                <ul className="blcok lg:flex mt-3">
+                <ul className="block lg:flex mt-3">
                   <li>
                     <Link
                       href="/about"
-                      className="scroll-menu py-2 md:py-0 text-base font-medium text-body-color hover:text-primary lg:inline-flex flex lg:ml-4 xl:ml-6"
+                      className="scroll-menu py-2 md:py-0 mt-[1px] text-base font-medium text-body-color hover:text-primary lg:inline-flex flex lg:ml-4 xl:ml-6"
                     >
                       About
                     </Link>
@@ -139,16 +140,9 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <div
-              className="xl:pl-10 sm:flex justify-end hidden pr-10 lg:pr-0"
-            >
-              {/* <a
-                href="#cta"
-                className="flex items-center justify-center text-base font-medium text-white bg-[#2B9F9F] rounded-lg px-6 transition-all hover:text-white hover:shadow-primary-hover"
-              >
-                Download App
-              </a> */}
-              <DownloadNow color={`bg-[#2B9F9F]`}/>
+            <div className="xl:pl-10 sm:flex justify-end hidden pr-10 lg:pr-0">
+              {/* <DownloadNow color={`bg-[#FF9F1C]`}/> */}
+              <DownloadNowOutline/>
               <div>
                 <label
                   htmlFor="darkToggler"

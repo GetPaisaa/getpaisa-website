@@ -49,41 +49,43 @@ const LoanCalculator = () => {
     const optionscolumnchart = {
         options: {
             chart: {
-              width: 500,
-              type: 'polarArea'
+                width: 500,
+                type: 'polarArea'
             },
             labels: ['Loan Amount', 'Interest', 'Total Amount'],
+            colors: ["#ff0000", "#c758d0", "#d6d6d6", "#007ed6"],
             fill: {
-              opacity: 1
+                opacity: 1
             },
             stroke: {
-              width: 1,
-              colors: undefined
+                width: 1,
+                colors: undefined
             },
             yaxis: {
-              show: false
+                show: false
             },
             legend: {
-              position: 'bottom'
+                position: 'bottom'
             },
             plotOptions: {
-              polarArea: {
-                rings: {
-                  strokeWidth: 0
-                },
-                spokes: {
-                  strokeWidth: 0
-                },
-              }
-            },
-            theme: {
-              monochrome: {
-                enabled: true,
-                shadeTo: 'light',
-                shadeIntensity: 0.6
-              }
+                polarArea: {
+                    rings: {
+                        strokeWidth: 0
+                    },
+                    spokes: {
+                        strokeWidth: 0
+                    },
+                }
             }
-          }
+            ,
+            theme: {
+                monochrome: {
+                    enabled: true,
+                    shadeTo: 'light',
+                    shadeIntensity: 0.6
+                }
+            }
+        }
     };
     const seriescolumnchart = [Math.floor(Number(loanAmount)), Math.floor(interest), Math.floor(Number(loanAmount) + interest)];
 
@@ -105,9 +107,8 @@ const LoanCalculator = () => {
         calculateSIP();
     }, [loanAmount, rate, year]);
     return (
-        <div className="bg-gradient-to-l from-gradient-1 to-gradient-2 py-10 mt-16">
+        <div className="bg-gradient-to-l from-gradient-1 to-gradient-2 py-10">
             <div className="container">
-
                 <div className="flex justify-center -mx-4">
                     <div className="w-full px-4">
                         <div
@@ -125,8 +126,7 @@ const LoanCalculator = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative overflow-hidden">
-
+                <div className="relative overflow-hidden group">
                     <div className="shadow-md bg-white rounded-xl p-3 px-6 py-10 z-20">
                         <div className="md:grid grid-cols-12 gap-2 mt-3">
                             <div className="col-span-7">
@@ -255,11 +255,12 @@ const LoanCalculator = () => {
                                     </div>
                                 </div>
                                 <div className="text-center mt-3">
-                                    <span className="text-[18px] text-blue-500 font-normal">Monthly EMI -</span> <span className="text-[18px] text-blue-500 font-normal">{currency} {(Math.floor(emi)).toLocaleString("en-IN")}</span>
+                                    <span className="text-[18px] text-[#4535C1]  font-bold">Monthly EMI -</span> <span className="text-[18px] text-blue-500 text-[#4535C1]  font-bold">{currency} {(Math.floor(emi)).toLocaleString("en-IN")}</span>
                                 </div>
 
                             </div>
                         </div>
+
 
                         <div className="shadow-sm overflow-hidden my-10 ">
                             <table className="border-collapse table-Personal w-full text-sm">
@@ -281,8 +282,13 @@ const LoanCalculator = () => {
                             </table>
                         </div>
                     </div>
-                    <img className="absolute z-10 -top-2 opacity-25 h-32" src="images/cta/rose-petals.svg" />
-                    <img className="absolute z-10 -bottom-2 right-0 opacity-25 h-32" src="images/cta/rose-petals.svg" />
+                    <img className="absolute z-10 -top-2 opacity-95 h-28" src="images/cta/rose-petals.svg" />
+                    <img className="absolute z-10 -bottom-2 right-0 opacity-95 h-28" src="images/cta/rose-petals.svg" />
+                    <div className="absolute -top-24 opacity-95 -right-24 opacity-1 group-hover:w-[230px] rotate-45 transition-all w-[250px]">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4535C1" d="M40.8,23.1C27.3,47,-26.9,46.9,-40.5,23C-54.1,-0.8,-27,-48.4,0.1,-48.4C27.1,-48.4,54.3,-0.7,40.8,23.1Z" transform="translate(100 100)" />
+                        </svg>
+                    </div>
                 </div>
 
             </div>

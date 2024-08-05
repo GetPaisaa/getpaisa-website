@@ -30,13 +30,13 @@ const Phone = () => {
       }, [formState, submittedData, reset]);
 
     return (
-        <form className="relative" onSubmit={handleSubmit(onSubmit)}>
+        <form className="relative " onSubmit={handleSubmit(onSubmit)}>
 
             <input
                 type="number"
                 {...register("phone", { required: true })}
                 placeholder="Enter Phone Number"
-                className="w-full bg-white dark:bg-dark rounded-xl border border-transparent py-[20px] px-6 font-normal text-sm text-body-color outline-none focus-visible:shadow-none focus:border-primary"
+                className="w-full bg-white shadow-sm rounded-xl border border-transparent py-[20px] px-6 font-normal text-sm text-body-color outline-none focus-visible:shadow-none focus:border-primary"
             />
             <button
                 className="absolute right-[6px] top-[6px] rounded-lg px-4 h-[52px] flex items-center justify-center bg-primary text-white"

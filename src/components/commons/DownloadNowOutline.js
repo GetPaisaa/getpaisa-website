@@ -2,7 +2,7 @@
 import React from 'react'
 import { Modal, Button } from 'rsuite';
 import Launch from './Launch';
-const DownloadNow = ({color}) => {
+const DownloadNowOutline = ({color}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -11,7 +11,7 @@ const DownloadNow = ({color}) => {
             <button
                 onClick={handleOpen}
                 href="#about"
-                className={`${color} font-normal text-white shadow-md rounded-xl py-5 px-6 md:px-10 transition-all hover:text-white hover:shadow-primary-hover mr-9`}
+                className={`bg-white text-primary border-2 font-medium text-primary hover:bg-primary hover:text-white border-primary text-white shadow-md rounded-xl py-5 px-6 md:px-10 transition-all bg-white border-primary mr-9`}
             >
                 Download App
             </button>
@@ -38,4 +38,4 @@ const DownloadNow = ({color}) => {
     );
 }
 
-export default DownloadNow
+export default DownloadNowOutline

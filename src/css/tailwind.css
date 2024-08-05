@@ -1153,7 +1153,7 @@ body {
 
 .border-primary{
   --tw-border-opacity: 1;
-  border-color: rgb(139 92 246 / var(--tw-border-opacity));
+  border-color: rgb(0 20 163 / var(--tw-border-opacity));
 }
 
 .border-\[\#e4f2fe\]{
@@ -1540,7 +1540,6 @@ body {
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(0 20 163 / var(--tw-text-opacity));
-  /* color: #0014A3; */
 }
 
 .placeholder-body-color::-moz-placeholder{
