@@ -261,7 +261,6 @@ const LoanCalculator = () => {
                             </div>
                         </div>
 
-
                         <div className="shadow-sm overflow-hidden my-10 ">
                             <table className="border-collapse table-Personal w-full text-sm">
                                 <thead>
@@ -277,7 +276,6 @@ const LoanCalculator = () => {
                                         <td className=" border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 font-normal text-[12px] md:text-[18px] text-center">{currency} {(Math.floor(interest)).toLocaleString("en-IN")}</td>
                                         <td className=" border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 font-normal text-[12px] md:text-[18px] text-right">{currency} {(Math.floor(Number(totalAmount))).toLocaleString("en-IN")}</td>
                                     </tr>
-
                                 </tbody>
                             </table>
                         </div>
