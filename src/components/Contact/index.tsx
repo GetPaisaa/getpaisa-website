@@ -45,7 +45,7 @@ const Contact = () => {
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
-                <div className="mb-8 flex w-[330px] max-w-full">
+                <div className="mt-10 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
                     <svg
                       width="29"
@@ -62,22 +62,27 @@ const Contact = () => {
                       Our Location
                     </h3>
 
-                   
+                    <a className="mb-3 inline-block max-w-[160px]" href="/">
+                    <img alt="logo" loading="lazy" width="140" height="30" decoding="async" data-nimg="1" className="max-w-full" src="/images1/logo/logo.svg"/>
+                    </a>
+
+                    <p className="mb-3 text-xl">Propkar Securities pvt. Ltd.</p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
                       113, 3rd floor Priya enclave ,Karkardooma, delhi, 110092
                     </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
-                      <b>Phone</b> <a className="hover:text-primary" href="tel:919999494925">+919999494925</a>
+                      <b>Phone</b> <a href="tel:919999494925" className="text-primary hover:text-primary/80">+919999494925</a>
                     </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
+                
                       <b>GST</b> :07AADCP3732A1ZX
                     </p>
                   </div>
                 </div>
-                <div className="mb-8 flex w-[330px] max-w-full">
+                <div className="mt-10 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
                     <svg
                       width="34"
@@ -93,10 +98,11 @@ const Contact = () => {
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@propkar.com
+                      <a className="text-primary hover:text-primary/80" href="mailto:info@propkar.com">info@propkar.com</a>
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      career@propkar.com
+                    <a className="text-primary hover:text-primary/80" href="mailto:career@propkar.com">career@propkar.com</a>
+                      
                     </p>
                   </div>
                 </div>
