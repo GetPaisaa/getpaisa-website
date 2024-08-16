@@ -45,7 +45,7 @@ const Contact = () => {
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
-                <div className="mt-10 flex w-[330px] max-w-full">
+                <div className="md:mt-20 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
                     <svg
                       width="29"
@@ -63,7 +63,7 @@ const Contact = () => {
                     </h3>
 
                     <a className="mb-3 inline-block max-w-[160px]" href="/">
-                    <img alt="logo" loading="lazy" width="140" height="30" decoding="async" data-nimg="1" className="max-w-full" src="/images1/logo/logo.svg"/>
+                    <img alt="logo" loading="lazy" width="140" height="20" decoding="async" data-nimg="1" className="max-w-full" src="/images1/logo/logo-1.svg"/>
                     </a>
 
                     <p className="mb-3 text-xl">Propkar Securities pvt. Ltd.</p>
@@ -82,7 +82,7 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mt-10 flex w-[330px] max-w-full">
+                <div className="mt-10 mb-16 md:mt-[90px] flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
                     <svg
                       width="34"
