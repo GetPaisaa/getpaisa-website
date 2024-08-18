@@ -6,7 +6,7 @@ const Faq = () => {
     <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[20px] lg:pt-[40px]">
       <div className="container">
         <SectionTitle
-          subtitle="FAQ"
+          subtitle="FAQs"
           title="Any Questions? Answered"
           paragraph="Here are some common questions about the site’s content, services, products, or policies are addressed."
           width="640px"
