@@ -49,7 +49,7 @@ const page = () => {
         <li className="mb-1">Write to the Company at the below mentioned address:</li>
       </ul>
       <address className="mb-2">
-        Propkar Securities Private Limited,<br/>
+        PROPKAR SECURITIES PRIVATE LIMITED<br/>
         113, Third Floor, Priya Enclave, East Delhi, Delhi-110092<br/>
         <strong>Kind Attention: Customer Service Team</strong>
       </address>
