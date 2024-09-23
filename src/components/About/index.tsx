@@ -21,7 +21,6 @@ const About = () => {
                     <li><b>Authentication Mechanisms:</b> Implementation of multi-factor authentication (MFA) and robust user authentication processes.</li>
                   </ul>
                 </p>
-
                 <a
                   href="/#"
                   className="inline-flex items-center justify-center rounded-md bg-pbutton px-7 py-3 text-center text-base font-medium hover:text-white text-white duration-300 hover:bg-pbutton/90"
