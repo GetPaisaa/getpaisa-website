@@ -98,7 +98,7 @@ const Contact = () => {
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      <a className="text-primary hover:text-primary/80" href="mailto:info@propkar.com">info@propkar.com</a>
+                      <a className="text-primary hover:text-primary/80" href="mailto:help@getpaisa.com">help@getpaisa.com</a>
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
                     <a className="text-primary hover:text-primary/80" href="mailto:career@propkar.com">career@propkar.com</a>

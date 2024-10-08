@@ -100,8 +100,8 @@ const AboutPage = () => {
                                 </h3>
 
                                 <p className="font-normal flex flex-col gap-2 text-base leading-relaxed text-body-color mb-8">
-                                    <span>Email: <a href='emailto:info@propkar.com'>info@propkar.com</a></span>
-                                    <span>Career: <a href='emailto:info@propkar.com'>career@propkar.com</a></span>
+                                    <span>Email: <a href='emailto:help@getpaisa.com'>help@getpaisa.com</a></span>
+                                    <span>Career: <a href='emailto:help@getpaisa.com'>career@propkar.com</a></span>
                                 </p>
 
 
