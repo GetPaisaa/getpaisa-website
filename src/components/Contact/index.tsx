@@ -66,7 +66,7 @@ const Contact = () => {
                     <img alt="logo" loading="lazy" width="140" height="20" decoding="async" data-nimg="1" className="max-w-full" src="/images1/logo/logo-1.svg"/>
                     </a>
 
-                    <p className="mb-3 text-xl">Propkar Securities pvt. Ltd.</p>
+                    <p className="mb-3 text-xl">Propkar Securities Pvt. Ltd.</p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
                       113, 3rd floor Priya enclave ,Karkardooma, delhi, 110092
