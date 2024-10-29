@@ -227,6 +227,14 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    href="https://getpaisa-website.s3.ap-south-1.amazonaws.com/RBI_Certificate_Propkar__1_.pdf"
+                    className="mb-3 inline-block text-base text-gray-7 focus:text-primary hover:text-primary"
+                  >
+                  RBI Certificate
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href="/grievance-redressal-policy"
                     className="mb-3 inline-block text-base text-gray-7 focus:text-primary hover:text-primary"
                   >

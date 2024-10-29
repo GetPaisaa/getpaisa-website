@@ -6,7 +6,7 @@ export default function Head() {
       </title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="GetPaisa.com - Unleashing the Power of Your Financial Future" />
-      <link rel="icon" href="/images1/favicon.ico" />
+      <link rel="icon" href="favicon.ico" />
     </>
   );
 }

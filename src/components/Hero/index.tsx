@@ -55,7 +55,7 @@ const Hero = () => {
                   Whether you're looking for a personal loan, managing your budget, we're here to help you every step of the way.
                 </p>
 
-                <span className="mb-4 text-white text-xl">Attractive Interest Rates Starting From 20%<sup className="text-white">*</sup></span>
+                <span className="mb-4 text-white text-xl">Attractive Interest Rates Starting From 20%<sup className="text-red">*</sup></span>
 
                 <hr className="line" />
 

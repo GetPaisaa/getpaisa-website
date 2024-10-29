@@ -71,7 +71,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images1/logo/logo-white.svg`}
+                      src={`/images1/logo/getpaisa.png`}
                       alt="logo"
                       width={240}
                       height={30}
@@ -82,19 +82,19 @@ const Header = () => {
                   <div>
                     <Image
                       src={`${sticky
-                        ? "/images1/logo/logo.svg"
-                        : "/images1/logo/logo-white.svg"
+                        ? "/images1/logo/getpaisa.png"
+                        : "/images1/logo/getpaisa.png"
                         }`}
                       alt="logo"
                       width={140}
-                      height={30}
+                      height={60}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images1/logo/logo-white.svg"}
+                      src={"/images1/logo/getpaisa.png"}
                       alt="logo"
                       width={140}
-                      height={30}
+                      height={60}
                       className="header-logo hidden w-full dark:block"
                     />
                   </div>
