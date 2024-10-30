@@ -35,7 +35,6 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
       <Head />
-      
       <body className={`${poppins.className}`}>
         {loading ? (
           <PreLoader />
