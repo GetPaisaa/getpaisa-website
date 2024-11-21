@@ -359,7 +359,6 @@ const Header = () => {
                 </nav>
               </div>
               <div className="items-center justify-end pr-10 sm:pr-16 flex lg:pr-0">
-                theme toggler
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
