@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -124,15 +123,12 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
         <div className="absolute -z-0 top-0 -right-36 group-hover:-right-40 transition-all">
           <img src="images1/pattern/bannerpattern.svg" className="rotate-" />
         </div>
-
         <div className="absolute z-10 -bottom-[20px] -left-48">
           <img src="images1/pattern/bannerpattern.svg" className="rotate-[178deg]" />
         </div>
-
       </section>
     </>
   );
