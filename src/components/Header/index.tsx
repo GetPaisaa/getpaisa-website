@@ -66,7 +66,7 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images1/logo/logo.svg`}
+                      src={`/images1/logo/getpaisa.png`}
                       alt="logo"
                       width={240}
                       height={30}
