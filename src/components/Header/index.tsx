@@ -66,11 +66,12 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images1/logo/getpaisa.png`}
+                      src={`/images1/logo/Getpaisa2.png`}
                       alt="logo"
                       width={240}
                       height={30}
                       className="header-logo w-full dark:hidden"
+                      style={{ maxWidth: '75%' }}
                     />
                     <Image
                       src={`/images1/logo/getpaisa.png`}
