@@ -73,8 +73,14 @@ const Contact = () => {
                     </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
-                      <b>Phone</b> <a href="tel:919999494925" className="text-primary hover:text-primary/80">+919999494925</a>
+                      <b>Phone :</b> <a href="tel:919999494925" className="text-primary hover:text-primary/80">+919999494925</a>
+
+                      {/* Toll free number 18008900340 */}
                     </p>
+                    <p className="text-base text-body-color dark:text-dark-6">
+
+                      <b> Toll Free Number :</b> <a href="tel:18008900340" className="text-primary hover:text-primary/80">1800 890 0340</a>
+                      </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
                 
