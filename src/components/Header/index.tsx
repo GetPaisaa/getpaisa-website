@@ -74,7 +74,7 @@ const Header = () => {
                       style={{ maxWidth: '75%' }}
                     />
                     <Image
-                      src={`/images1/logo/getpaisa.png`}
+                      src={`/images1/logo/Getpaisa2.png`}
                       alt="logo"
                       width={240}
                       height={30}
@@ -86,13 +86,14 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images1/logo/getpaisa.png"
+                          ? "/images1/logo/Getpaisa2.png"
                           : "/images1/logo/getpaisa.png"
                       }`}
                       alt="logo"
                       width={140}
                       height={60}
                       className="header-logo w-full dark:hidden"
+                      style={{ maxWidth: '75%' }}
                     />
                     <Image
                       src={"/images1/logo/getpaisa.png"}
