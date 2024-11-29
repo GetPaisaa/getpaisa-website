@@ -1,5 +1,4 @@
 "use client";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "./head";
@@ -8,11 +7,8 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
- 
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
-
-
 import { Poppins } from "next/font/google";
 
 export const poppins = Poppins({
