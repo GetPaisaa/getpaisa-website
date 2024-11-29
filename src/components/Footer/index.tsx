@@ -227,7 +227,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://getpaisa-website.s3.ap-south-1.amazonaws.com/RBI_Certificate_Propkar__1_.pdf"
+                    href="https://getpaisa-website.s3.ap-south-1.amazonaws.com/RBI_PSPL_certificate.pdf"
                     className="mb-3 inline-block text-base text-gray-7 focus:text-primary hover:text-primary"
                   >
                   RBI Certificate
