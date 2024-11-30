@@ -1,7 +1,7 @@
-'use client'
-import React from 'react'
+import React from 'react';
 import { Modal} from 'rsuite';
-import Launch from "@/components/Common/Launch"
+import Launch from "@/components/Common/Launch";
+
 const DownloadNowUni = ({ pathUrl='/', sticky='false' }) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
@@ -14,11 +14,6 @@ const DownloadNowUni = ({ pathUrl='/', sticky='false' }) => {
             >
                 Download App
             </button>
-
-
-          
-
-
             <Modal open={open} onClose={handleClose} className='bg-primary'>
                 <Modal.Header>
                     <Modal.Title>GetPaisa - Launching Soon</Modal.Title>

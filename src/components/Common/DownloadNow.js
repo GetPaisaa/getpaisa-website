@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Modal} from 'rsuite';
-import Launch from "@/components/Common/Launch"
+import Launch from "@/components/Common/Launch";
 
 const DownloadNow = ({ pathUrl='/', sticky='false' }) => {
     const [open, setOpen] = React.useState(false);
