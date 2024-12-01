@@ -12,9 +12,9 @@ import PreLoader from "@/components/Common/PreLoader";
 import { Poppins } from "next/font/google";
 
 export const poppins = Poppins({
-  weight: ['400', '700'], // specify the weights you need
-  subsets: ['latin'], // specify the subsets you need
-  display: 'swap', // this is optional
+  weight: ['400', '700'],
+  subsets: ['latin'], 
+  display: 'swap',
 });
 
 export default function RootLayout({
