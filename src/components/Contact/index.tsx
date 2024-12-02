@@ -69,7 +69,7 @@ const Contact = () => {
                     <p className="mb-3 text-xl">Propkar Securities Pvt. Ltd.</p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
-                      113, 3rd floor Priya enclave ,Karkardooma, delhi, 110092
+                      113, 3rd floor Priya enclave Karkardooma, delhi, 110092
                     </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
