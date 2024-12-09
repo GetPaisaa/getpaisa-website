@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <main>
       <Breadcrumb pageName="About Us" />
-      <section id="blog" className="py-10 2xl:py-[100px]">
+      <section id="blog" className="py-10 2xl:py-[1px]">
                 <div className="container">
                     <div className="flex flex-wrap justify-center -mx-4">
                         <div className="w-full lg:w-8/12 px-4">
