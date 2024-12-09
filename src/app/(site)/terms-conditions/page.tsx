@@ -668,7 +668,7 @@ const page = () => {
               <tbody>
                 <tr>
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">APR (Annual Percentage Fixed Rate)</td>
-                  <td className="px-4 py-2 font-normal border-2 border-gray-300">Minimum: 20%<br/>Maximum: 40%</td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">Minimum: 16%<br/>Maximum: 36%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">Penalty Charges</td>

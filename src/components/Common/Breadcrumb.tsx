@@ -19,7 +19,7 @@ const Breadcrumb = ({
                   {pageName}
                 </h1>
                 <p className="text-body-color dark:text-dark-6 mb-5 text-base">
-                  {pageDescription}
+                  {/* {pageDescription} */}
                 </p>
 
                 <ul className="flex items-center justify-center gap-[10px]">
