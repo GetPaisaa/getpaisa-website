@@ -1,37 +1,38 @@
-'use client'
+"use client";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
-  const [loading,setLoading] = useState<boolean>(false);
-  const [success,setSuccess] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [success, setSuccess] = useState<boolean>(false);
 
-  const { register, handleSubmit, reset,formState, formState: { errors } } = useForm();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState,
+    formState: { errors },
+  } = useForm();
   useEffect(() => {
     if (formState.isSubmitSuccessful) {
       setSuccess(true);
       setLoading(false);
       reset();
-      
     }
   }, [formState, reset]);
 
   const onSubmit = async (data: any) => {
     setLoading(true);
-       const response = await fetch('/api/contactus', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const response = await fetch("/api/contactus", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     });
     const returndata = await response.json();
-    console.log(returndata); 
+    console.log(returndata);
   };
-  
-
   return (
     <section id="contact" className="relative py-20 md:py-[120px]">
-      <div className="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark"></div>
-      <div className="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
       <div className="container px-4">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -41,7 +42,8 @@ const Contact = () => {
                   Need Any Help?
                 </span>
                 <h2 className="me-8 text-[17px] font-normal leading-[1.14] text-dark dark:text-white">
-                  Do you need any Help? Fill up the below form to get help regarding loans, services , terms and condition.
+                  Do you need any Help? Fill up the below form to get help
+                  regarding loans, services , terms and condition.
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -63,7 +65,16 @@ const Contact = () => {
                     </h3>
 
                     <a className="mb-3 inline-block max-w-[160px]" href="/">
-                    <img alt="logo" loading="lazy" width="140" height="20" decoding="async" data-nimg="1" className="max-w-full" src="/images1/logo/logo-1.svg"/>
+                      <img
+                        alt="logo"
+                        loading="lazy"
+                        width="140"
+                        height="20"
+                        decoding="async"
+                        data-nimg="1"
+                        className="max-w-full"
+                        src="/images1/logo/logo-1.svg"
+                      />
                     </a>
 
                     <p className="mb-3 text-xl">Propkar Securities Pvt. Ltd.</p>
@@ -73,17 +84,26 @@ const Contact = () => {
                     </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
-                      <b>Phone :</b> <a href="tel:919999494925" className="text-primary hover:text-primary/80">+919999494925</a>
-
+                      <b>Phone :</b>{" "}
+                      <a
+                        href="tel:919999494925"
+                        className="text-primary hover:text-primary/80"
+                      >
+                        +919999494925
+                      </a>
                       {/* Toll free number 18008900340 */}
                     </p>
                     <p className="text-base text-body-color dark:text-dark-6">
-
-                      <b> Toll Free Number :</b> <a href="tel:18008900340" className="text-primary hover:text-primary/80">1800 890 0340</a>
-                      </p>
+                      <b> Toll Free Number :</b>{" "}
+                      <a
+                        href="tel:18008900340"
+                        className="text-primary hover:text-primary/80"
+                      >
+                        1800 890 0340
+                      </a>
+                    </p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
-                
                       <b>GST</b> :07AADCP3732A1ZX
                     </p>
                   </div>
@@ -104,11 +124,20 @@ const Contact = () => {
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      <a className="text-primary hover:text-primary/80" href="mailto:help@getpaisa.com">help@getpaisa.com</a>
+                      <a
+                        className="text-primary hover:text-primary/80"
+                        href="mailto:help@getpaisa.com"
+                      >
+                        help@getpaisa.com
+                      </a>
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                    <a className="text-primary hover:text-primary/80" href="mailto:career@propkar.com">career@propkar.com</a>
-                      
+                      <a
+                        className="text-primary hover:text-primary/80"
+                        href="mailto:career@propkar.com"
+                      >
+                        career@propkar.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -134,7 +163,7 @@ const Contact = () => {
                   </label>
                   <input
                     {...register("fname", { required: true })}
-                    type="text" 
+                    type="text"
                     placeholder="Nikhil Sharma"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
@@ -148,7 +177,7 @@ const Contact = () => {
                   </label>
                   <input
                     {...register("email", { required: true })}
-                    type="email" 
+                    type="email"
                     placeholder="example@yourmail.com"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
@@ -161,7 +190,7 @@ const Contact = () => {
                     Phone*
                   </label>
                   <input
-                    type="text" 
+                    type="text"
                     {...register("phone", { required: true })}
                     placeholder="+91 1254 5211 ***"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
@@ -186,9 +215,19 @@ const Contact = () => {
                     type="submit"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
                   >
-                    <div>{!loading?<span>Submit Message</span>:<span>Please wait</span>}</div>
+                    <div>
+                      {!loading ? (
+                        <span>Submit Message</span>
+                      ) : (
+                        <span>Please wait</span>
+                      )}
+                    </div>
                   </button>
-                  <span className={`${success?'block':'hidden'} mt-5 text-center text-primary`}>Form Submitted successfully</span>
+                  <span
+                    className={`${success ? "block" : "hidden"} mt-5 text-center text-primary`}
+                  >
+                    Form Submitted successfully
+                  </span>
                 </div>
               </form>
             </div>
