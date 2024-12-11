@@ -93,7 +93,7 @@ const Header = () => {
                       width={140}
                       height={60}
                       className="header-logo w-full dark:hidden"
-                      style={{ maxWidth: '75%' }}
+                      style={{ maxWidth: '100%' }}
                     />
                     <Image
                       src={"/images1/logo/getpaisa.png"}
