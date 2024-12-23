@@ -656,9 +656,10 @@ const page = () => {
               PSPL reserves the right to suspend or permanently prevent You from
               availing PSPL Digital Services or using the PSPL Platform.
             </p>
-            <h2 className="text-xl font-normal mb-2">Other Important Terms and Conditions</h2>
-
-            <table className="table-auto w-full mb-4 border-2 border-gray-300">
+            <h2 className="text-xl font-normal mb-2">
+              Other Important Terms and Conditions
+            </h2>
+            {/* <table className="table-auto w-full mb-4 border-2 border-gray-300">
               <thead>
                 <tr>
                   <th className="px-4 py-2 text-left font-normal border-2 border-gray-300">Loan Term</th>
@@ -668,7 +669,7 @@ const page = () => {
               <tbody>
                 <tr>
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">APR (Annual Percentage Fixed Rate)</td>
-                  <td className="px-4 py-2 font-normal border-2 border-gray-300">Minimum: 16%<br/>Maximum: 36%</td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">Minimum: 16%<br/>Maximum:  32%%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">Penalty Charges</td>
@@ -691,8 +692,116 @@ const page = () => {
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">₹500 + applicable taxes for each bounced EMI.</td>
                 </tr>
               </tbody>
+            </table> */}
+            <table className="table-auto w-full mb-4 border-2 border-gray-300">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 text-left font-normal border-2 border-gray-300">
+                    Loan Term
+                  </th>
+                  <th className="px-4 py-2 text-left font-normal border-2 border-gray-300">
+                    Details
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Minimum Loan Amount
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    ₹50,000
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Maximum Loan Amount
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    ₹3,00,000
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Minimum Loan Tenure
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    12 months
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Maximum Loan Tenure
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    36 months
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Processing Fee
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    3%
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    APR (Annual Percentage Fixed Rate)
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Minimum: 16%
+                    <br />
+                    Maximum: 32%
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Penalty Charges
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    2% per day on the entire outstanding loan amount, as per the
+                    repayment schedule.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Repayment Method
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Monthly installments (EMIs) with fixed amounts.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Loan Foreclosure Charges
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    No charges if more than 50% of the loan tenure is completed.
+                    <br />
+                    4% of the outstanding loan amount if the above condition is
+                    not met.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    Partial Payment Charges
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    After three EMIs are paid, the borrower can make a partial
+                    payment.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    EMI Bounce Charges
+                  </td>
+                  <td className="px-4 py-2 font-normal border-2 border-gray-300">
+                    ₹500 + applicable taxes for each bounced EMI.
+                  </td>
+                </tr>
+              </tbody>
             </table>
-
           </div>
         </div>
       </section>
