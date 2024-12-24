@@ -16,7 +16,6 @@ const page = () => {
             <h1 className="text-2xl font-bold mb-4">
               GRIEVANCE REDRESSAL POLICY
             </h1>
-
             <div className="mb-6">
               <h2 className="text-xl font-semibold mb-2">1. Overview:</h2>
               <p className="mb-2">
