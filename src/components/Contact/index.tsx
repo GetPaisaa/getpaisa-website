@@ -77,7 +77,7 @@ const Contact = () => {
                       />
                     </a>
 
-                    <p className="mb-3 text-xl">Propkar Securities Pvt. Ltd.</p>
+                    <p className="mb-3 text-xl">Propkar Securities Pvt Ltd™</p>
 
                     <p className="text-base text-body-color dark:text-dark-6">
                       113, 3rd floor Priya Enclave Karkardooma, Delhi, 110092
