@@ -21,7 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 font-semibold max-w-[270px] text-base text-gray-7">
-                  Propkar Securities pvt Ltd
+                  Propkar Securities Pvt Ltd™
               </p>
               <div className="-mx-3 flex items-center">
               
