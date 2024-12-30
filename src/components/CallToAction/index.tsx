@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+
 const CallToAction = () => {
   return (
     <section className="relative z-10 overflow-hidden bg-primary py-20 lg:py-[1 5px]">
