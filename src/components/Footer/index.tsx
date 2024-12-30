@@ -21,7 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 font-semibold max-w-[270px] text-base text-gray-7">
-                  PROPKAR SECURITIES PVT LTD™
+                  PROPKAR SECURITIES PVT LTD®
               </p>
               <div className="-mx-3 flex items-center">
               
@@ -263,7 +263,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
+{/* 
       <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -283,7 +283,59 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-4 lg:mt-[60px]">
+        <div className="container mx-auto">
+          {/* Certifications Section */}
+          <div className="flex flex-wrap justify-between items-center pb-8">
+            {/* Left Section: Certifications */}
+            {/* <div className="w-full lg:w-1/2 px-4">
+              <h3 className="text-white text-lg font-semibold mb-4">GetPaisa Certifications</h3>
+              <div className="flex flex-wrap items-center gap-4">
+                <div className="bg-[#1c1c1c] p-4 rounded shadow">
+                  <img src="public/images1/logo/DSS.png.png" alt="PCI DSS Certified" className="w-24" />
+                </div>
+                <div className="bg-[#1c1c1c] p-4 rounded shadow">
+                  <img src="/path-to-iso-logo.png" alt="ISO 27001 Certified" className="w-24" />
+                </div>
+                <div className="bg-[#1c1c1c] p-4 rounded shadow">
+                  <img src="/path-to-soc2-logo.png" alt="SOC 2 Certified" className="w-24" />
+                </div>
+                <div className="bg-[#1c1c1c] p-4 rounded shadow">
+                  <img src="/path-to-face-logo.png" alt="Fintech Association" className="w-24" />
+                </div>
+              </div>
+            </div> */}
+
+            {/* Right Section: Trademark Info */}
+            <div className="w-full px-2">
+              <p className=" text-l mt-4 text-gray-7 font-semibold">
+              Getpaisa is a registered trademark,owned and protected by Propkar Securities Pvt Ltd (PSPL). The ownership of this trademark signifies the exclusive rights of Propkar Securities Private Limited to use the brand name "GetPaisa" for its business operations and related activities. All rights are reserved exclusively with PSPL.
+              </p>
+            </div>
+
+          </div>
+
+          {/* Footer Section */}
+          <div className="flex flex-wrap -mx-4 border-t border-[#8890A4] pt-6">
+            {/* Left Section */}
+            <div className="w-full px-4 md:w-2/3 lg:w-1/2">
+              <div className="flex items-center justify-center md:justify-start text-white">
+                © 2024 GetPaisa. All rights reserved.
+              </div>
+            </div>
+
+            {/* Right Section */}
+            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
+              <div className="flex justify-center md:justify-end">
+                <p className="text-base text-gray-400">GetPaisa.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
 
       <div>
         {/* <span className="absolute left-0 top-0 z-[-1] aspect-[95/82] w-full max-w-[570px]">
