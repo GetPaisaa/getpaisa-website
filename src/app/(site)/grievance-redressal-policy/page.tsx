@@ -112,7 +112,7 @@ const page = () => {
                   </a>
                   ;
                 </li>
-                <li className="mb-1">Call on +9999494925; or</li>
+                <li className="mb-1">Call on +9999494925</li>
                 <li className="mb-1">
                   Write to the Company at the below mentioned address:
                 </li>
