@@ -167,7 +167,7 @@ const page = () => {
                 <br />
                 113, Third Floor, Priya Enclave, East Delhi, Delhi-110092
                 <br />
-                Contact: 8287218183
+                Contact: 9999494925
                 <br />
                 Email:{" "}
                 <a
