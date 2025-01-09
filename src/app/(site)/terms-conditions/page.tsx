@@ -750,9 +750,9 @@ const page = () => {
                     APR (Annual Percentage Fixed Rate)
                   </td>
                   <td className="px-4 py-2 font-normal border-2 border-gray-300">
-                    Minimum: 16%
+                    Minimum: 19.54%
                     <br />
-                    Maximum: 32%
+                    Maximum: 35.54%
                   </td>
                 </tr>
                 <tr>
