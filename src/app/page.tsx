@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import SecuritySection from "@/components/Iso";
 import Upcoming from "@/components/Upcoming";
 import Testimonials from "@/components/Testimonials"; 
 import { Metadata } from "next";
@@ -29,7 +30,8 @@ export default function Home() {
       <LoanCalculator/>
       <Testimonials />
       <Clients />
-      <Faq />
+      <Faq/>
+      <SecuritySection/>
       <Contact />
     </main>
   );
