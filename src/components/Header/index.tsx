@@ -325,7 +325,9 @@ const Header = () => {
                         </div>
 
                         <div className="flex flex-col gap-3">
-                          <button className="px-3 py-1.5 flex gap-4 items-center rounded-xl outline outline-2">
+                          <button 
+                          onClick={() => window.open("https://play.google.com/store/apps/details?id=com.get.paisa")}
+                          className="px-3 py-1.5 flex gap-4 items-center rounded-xl outline outline-2">
                             <div className="w-8">
                               <img
                                 className="h-full w-full"
@@ -340,7 +342,9 @@ const Header = () => {
                             </div>
                           </button>
 
-                          <button className="px-3 py-1.5 flex gap-2 items-center rounded-xl outline outline-2">
+                          <button 
+                          onClick={() => window.open("https://apps.apple.com/in/app/getpaisa/id1586537312")}
+                          className="px-3 py-1.5 flex gap-2 items-center rounded-xl outline outline-2">
                             <div className="w-10">
                               <img
                                 className="h-full w-full"

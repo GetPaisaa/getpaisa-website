@@ -22,12 +22,14 @@ const CallToAction = () => {
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
                       Our platform ensures that your payments are processed instantly. No more waiting for days to see your money where it needs to be. We leverage cutting-edge technology to provide lightning-fast transactions.
                 </p>
-                <Link
-                  href="/"
-                  className="inline-block rounded-md border border-transparent bg-pbutton px-7 py-3 text-base font-medium focus:text-white hover:text-white text-white transition hover:bg-pbutton/80"
+                {/* <a
+                  href="https://play.google.com/store/apps/details?id=com.get.paisa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-md border border-transparent bg-pbutton px-7 py-3 text-base font-medium text-white transition hover:bg-pbutton/80 focus:text-white hover:text-white"
                 >
                   Download App
-                </Link>
+                </a> */}
               </div>
             </div>
           </div>

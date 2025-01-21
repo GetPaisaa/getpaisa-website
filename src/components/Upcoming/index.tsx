@@ -17,20 +17,6 @@ const Team = () => {
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full lg:w-1/2 px-4">
-              {/* <div className="mx-auto max-w-[570px] text-center">
-                <h2 className="mb-2.5 text-xl text-center font-bold text-white md:text-[32px] md:leading-[1.44]">
-                  <span>We make Instant Payment Transfer</span>
-                </h2>
-                <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  Our platform ensures that your payments are processed instantly. No more waiting for days to see your money where it needs to be. We leverage cutting-edge technology to provide lightning-fast transactions.
-                </p>
-                <Link
-                  href="/"
-                  className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium focus:text-white hover:text-white text-white transition hover:bg-[#0BB489]"
-                >
-                  Download App
-                </Link>
-              </div> */}
               <div className="w-full px-4 md:w-8/12">
                 <div
                   className="relative group z-10 mb-1 overflow-hidden border-2 border-primary rounded-bl-3xl rounded-br-3xl rounded-tl-3xl bg-white px-8 py-10  dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10"
