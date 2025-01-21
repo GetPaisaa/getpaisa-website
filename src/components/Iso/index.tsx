@@ -47,7 +47,9 @@ const SecuritySection = () => {
           </div>
         </div>
 
-        <a className="inline-block px-6 py-3 bg-[#4AB2BF] text-white rounded-lg hover:bg-[#5CC5D2] transition-colors">
+        <a 
+        href="https://play.google.com/store/apps/details?id=com.get.paisa"
+        className="inline-block px-6 py-3 bg-[#4AB2BF] text-white rounded-lg hover:bg-[#5CC5D2] transition-colors">
           Download app
         </a>
       </div>
