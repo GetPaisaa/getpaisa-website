@@ -16,7 +16,7 @@ const DownloadNowUni = ({ pathUrl='/', sticky='false' }) => {
             </button>
              <Modal open={open} onClose={handleClose} className="bg-primary">
                    <Modal.Header>
-                     <Modal.Title>GetPaisa - Launching Soon </Modal.Title>
+                     <Modal.Title>GetPaisa - Disbursement Soon </Modal.Title>
                    </Modal.Header>
                    <Modal.Body>
                      <div className="flex flex-col items-center py-1 mt-10">
