@@ -319,7 +319,7 @@ const Header = () => {
                             {" "}
                             <img
                               className="w-36 rounded-md"
-                              src="images1/misc/qr-code.svg"
+                              src="images1/misc/qrcode.svg"
                             />
                           </div>
                         </div>
