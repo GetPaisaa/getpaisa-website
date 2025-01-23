@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Modal } from 'rsuite';
-import Launch from '@/components/Common/Launch';
 
 const DownloadNow = ({ pathUrl = '/', sticky = false }) => {
   const [open, setOpen] = useState(false);
@@ -24,8 +23,6 @@ const DownloadNow = ({ pathUrl = '/', sticky = false }) => {
           Download App
         </button>
       </div>
-
-      {/* Modal */}
       <Modal open={open} onClose={handleClose} className="bg-primary">
         <Modal.Header>
           <Modal.Title>GetPaisa - Disbursement Soon </Modal.Title>

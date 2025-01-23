@@ -127,10 +127,10 @@ const Pricing = () => {
                 rates.
               </p>
               <Link
-                href="/products/personal-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
+                href="https://play.google.com/store/apps/details?id=com.get.paisa"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary"
               >
-                Learn More
+                Live Now
                 <span className="pl-1">
                   <svg
                     width="28"
@@ -217,9 +217,9 @@ const Pricing = () => {
               </p>
               <Link
                 href="/products/business-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary box-content "
               >
-                Learn More
+                Launching Soon
                 <span className="pl-1">
                   <svg
                     width="28"
@@ -307,9 +307,9 @@ const Pricing = () => {
               </p>
               <Link
                 href="/products/auto-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary"
               >
-                Learn More
+                Launching Soon
                 <span className="pl-1">
                   <svg
                     width="28"
@@ -397,9 +397,9 @@ const Pricing = () => {
               </p>
               <Link
                 href="/products/health-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary bold"
               >
-                Learn More
+                Launching Soon
                 <span className="pl-1">
                   <svg
                     width="28"
@@ -488,9 +488,9 @@ const Pricing = () => {
               </p>
               <Link
                 href="/products/nari-shakti-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary"
               >
-                Learn More
+                Launching Soon
                 <span className="pl-1">
                   <svg
                     width="28"

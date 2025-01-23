@@ -90,7 +90,7 @@ const Team = () => {
                     href="/products/nari-shakti-loans"
                     className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary"
                   >
-                    Learn More
+                    Launching Soon
                     <span className="pl-1">
                       <svg
                         width="28"
