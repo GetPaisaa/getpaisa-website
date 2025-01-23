@@ -397,7 +397,7 @@ const Pricing = () => {
               </p>
               <Link
                 href="/products/health-loans"
-                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary bold"
+                className="inline-flex items-center font-normal text-sm pl-1 hover:text-primary/90 text-primary border-b-2 border-primary"
               >
                 Launching Soon
                 <span className="pl-1">
