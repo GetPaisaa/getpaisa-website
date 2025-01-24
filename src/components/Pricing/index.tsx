@@ -105,7 +105,7 @@ const Pricing = () => {
                       <path d="M16.3333 19.7633V15.0967H5.92666L5.89166 12.7517H16.3333V8.09668L22.1667 13.93L16.3333 19.7633Z"></path>
                     </svg>
                   </span>
-                  <span>Upto ₹20K - 300k</span>
+                  <span>Upto ₹50K - 300k</span>
                 </div>
                 <div className="inline-flex items-center text-sm">
                   <span>
