@@ -5,6 +5,16 @@ const DownloadNowUni = () => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+
+    const openStore = () => {
+      const isAppleDevice = /iPhone|iPad|iPod|Mac/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      if (isAppleDevice) {
+        window.location.href = "https://apps.apple.com/us/app/getpaisa/id6737540025";
+      } else {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.get.paisa";
+      }
+    };
+
     return (
         <div className="modal-container">
             <button
@@ -26,14 +36,14 @@ const DownloadNowUni = () => {
                        />
                        <span className="text-primary text-2xl mt-5">Exciting Announcement</span>
                        <p className="text-center text-[15px] mt-4">
-                         We are now available on Play Store & App Store. However, we shall start official disbursements from 2nd February 2025 onwards.
-                         Thank you for your patience, we appreciate your business.
-                         At GetPaisa, we are committed to providing the best possible services.
+                       We are now live on both the Play Store and App Store!
+                      We’re excited to announce that loan disbursements have officially started! Thank you for your trust and support.
+                      At GetPaisa, we are committed to providing you with the best financial services.
                        </p>
                      </div>
                      <div className="container mt-2 flex justify-center">
                       <button
-                          onClick={() => window.open('https://play.google.com/store/apps/details?id=com.get.paisa' , '_blank')}
+                          onClick={openStore}
                           className="inline-flex justify-center items-center rounded-md bg-pbutton px-9 py-[12px] text-center text-white text-base font-medium hover:shadow-2 hover:text-white hover:bg-pbutton/80 shadow-1 transition duration-300 ease-in-out"
                       >
                           Download App

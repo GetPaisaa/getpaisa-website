@@ -1,11 +1,20 @@
-import React, { useState } from 'react';
-import { Modal } from 'rsuite';
+import React, { useState } from "react";
+import { Modal } from "rsuite";
 
-const DownloadNow = ({ pathUrl = '/', sticky = false }) => {
+const DownloadNow = ({ pathUrl = "/", sticky = false }) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+   const openStore = () => {
+    const isAppleDevice = /iPhone|iPad|iPod|Mac/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (isAppleDevice) {
+      window.location.href = "https://apps.apple.com/us/app/getpaisa/id6737540025";
+    } else {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.get.paisa";
+    }
+  };
 
   return (
     <div className="modal-container">
@@ -13,11 +22,11 @@ const DownloadNow = ({ pathUrl = '/', sticky = false }) => {
         <button
           onClick={handleOpen}
           className={`rounded-lg px-6 py-3 text-base font-medium duration-300 ease-in-out
-            ${pathUrl !== '/'
-              ? 'bg-primary text-white hover:text-white dark:bg-white/10 dark:hover:bg-white/20'
+            ${pathUrl !== "/"
+              ? "bg-primary text-white hover:text-white dark:bg-white/10 dark:hover:bg-white/20"
               : sticky
-              ? 'bg-primary text-white hover:text-white dark:bg-white/10 dark:hover:bg-white/20'
-              : 'bg-white/10 text-white hover:bg-white/20'
+              ? "bg-primary text-white hover:text-white dark:bg-white/10 dark:hover:bg-white/20"
+              : "bg-white/10 text-white hover:bg-white/20"
             }`}
         >
           Download App
@@ -43,7 +52,7 @@ const DownloadNow = ({ pathUrl = '/', sticky = false }) => {
           </div>
           <div className="container mt-2 flex justify-center">
             <button
-              onClick={() => window.open('https://play.google.com/store/apps/details?id=com.get.paisa')}
+              onClick={openStore}
               className="inline-flex justify-center items-center rounded-md bg-pbutton px-9 py-[12px] text-center text-white text-base font-medium hover:shadow-2 hover:text-white hover:bg-pbutton/80 shadow-1 transition duration-300 ease-in-out"
             >
               Download App

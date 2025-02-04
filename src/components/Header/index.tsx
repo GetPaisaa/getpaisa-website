@@ -343,7 +343,7 @@ const Header = () => {
                           </button>
 
                           <button 
-                          onClick={() => window.open("https://apps.apple.com/in/app/getpaisa/id1586537312")}
+                          onClick={() => window.open("https://apps.apple.com/us/app/getpaisa/id6737540025")}
                           className="px-3 py-1.5 flex gap-2 items-center rounded-xl outline outline-2">
                             <div className="w-10">
                               <img
