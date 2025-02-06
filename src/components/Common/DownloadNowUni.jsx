@@ -7,7 +7,7 @@ const DownloadNowUni = () => {
     const handleClose = () => setOpen(false);
 
     const openStore = () => {
-      const isAppleDevice = /iPhone|iPad|iPod|Mac/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      const isAppleDevice = /iPhone|iPad|iPod|Mac/.test(navigator.userAgent) || (navigator.userAgent.includes === 'MacIntel' && navigator.maxTouchPoints > 1);
       if (isAppleDevice) {
         window.location.href = "https://apps.apple.com/us/app/getpaisa/id6737540025";
       } else {
