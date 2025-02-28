@@ -240,6 +240,14 @@ const Footer = () => {
                  TradeMark Certificate
                   </Link>
                   </li>
+                  <li>
+                  <Link
+                    href="https://getpaisa-website.s3.ap-south-1.amazonaws.com/GetpaisaTradeMark.pdf"
+                    className="mb-3 inline-block text-base text-gray-7 focus:text-primary hover:text-primary"
+                  >
+                 Getpaisa TradeMark Certificate
+                  </Link>
+                  </li>
                 </li>
                 <li>
                   <Link
