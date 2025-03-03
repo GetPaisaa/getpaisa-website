@@ -128,7 +128,6 @@ const Hero = () => {
                     </Slider>
                   </div>
                 </div>
-
                 <span className="absolute -z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[350px] animate-pulse w-full h-[350px] bg-white dark:bg-dark bg-opacity-25 dark:bg-opacity-25 shadow-shape-1 rounded-full"></span>
                 <span className="absolute -z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[450px] animate-pulse w-full h-[450px] bg-white dark:bg-dark bg-opacity-25 dark:bg-opacity-25 shadow-shape-1 rounded-full"></span>
               </div>
