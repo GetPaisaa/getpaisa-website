@@ -74,7 +74,7 @@ const Hero = () => {
                 </p>
 
                 <span className="mb-4 text-white text-xl">
-                  Attractive Interest Rates Starting From 16%
+                  Attractive Interest Rates Starting From 18%
                   <sup className="text-red">*</sup>
                 </span>
 
