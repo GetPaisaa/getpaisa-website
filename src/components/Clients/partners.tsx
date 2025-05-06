@@ -18,14 +18,14 @@ const Partners = () => {
             <img 
               src="/images1/logo/airpay_money_Logo.png" 
               alt="Airpay Money Logo" 
-              className="w-32 md:w-40 h-auto object-contain"
+              className="w-32 md:w-40 h-auto object-contain transition-all duration-300 hover:scale-105 md:hover:scale-110 active:scale-95"
             />
             <div className="flex gap-4">
               <a 
                 href="https://play.google.com/store/apps/details?id=com.finmapp.fininfinity" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-all duration-300 hover:scale-105 md:hover:scale-110 hover:-translate-y-1 active:scale-95"
               >
                 <img 
                   src="/images1/logo/playstore.png" 
@@ -37,7 +37,7 @@ const Partners = () => {
                 href="https://apps.apple.com/in/app/airpay-money/id1579880311" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-all duration-300 hover:scale-110 hover:-translate-y-1"
               >
                 <img 
                   src="/images1/logo/appstore.png" 
@@ -51,14 +51,14 @@ const Partners = () => {
             <img 
               src="/images1/logo/mobilepe.png" 
               alt="MobilePe Logo" 
-              className="w-32 md:w-40 h-auto object-contain"
+              className="w-32 md:w-40 h-auto object-contain transition-all duration-300 hover:scale-105 md:hover:scale-110 active:scale-95"
             />
             <div className="flex gap-4">
               <a 
                 href="https://play.google.com/store/apps/details?id=com.mobilepe.android" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-all duration-300 hover:scale-105 md:hover:scale-110 hover:-translate-y-1 active:scale-95"
               >
                 <img 
                   src="/images1/logo/playstore.png" 
@@ -70,7 +70,7 @@ const Partners = () => {
                 href="https://apps.apple.com/in/app/mobilepe/id1521706219" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-all duration-300 hover:scale-110 hover:-translate-y-1"
               >
                 <img 
                   src="/images1/logo/appstore.png" 
