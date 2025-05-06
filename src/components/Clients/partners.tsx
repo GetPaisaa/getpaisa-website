@@ -16,7 +16,7 @@ const Partners = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 mt-8">
           <div className="flex flex-col items-center gap-8 md:gap-14">
             <img 
-              src="/images1/logo/airpay_money_logo.png" 
+              src="/images1/logo/airpay_money_Logo.png" 
               alt="Airpay Money Logo" 
               className="w-32 md:w-40 h-auto object-contain"
             />
