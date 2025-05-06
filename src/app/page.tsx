@@ -2,6 +2,7 @@ import About from "@/components/About";
 import LoanCalculator from "@/components/Calculators/LoanEmi";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
+import Partners from "@/components/Clients/partners";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
@@ -30,6 +31,7 @@ export default function Home() {
       <LoanCalculator/>
       <Testimonials />
       <Clients />
+      <Partners/>
       <Faq/>
       <SecuritySection/>
       <Contact />
