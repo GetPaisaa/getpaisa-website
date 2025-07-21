@@ -172,7 +172,10 @@ const page = () => {
 
         <h2 className="text-xl font-semibold mb-2">Amendment of Privacy Policy:</h2>
         <p className="mb-4">PSPL may amend/update the Privacy Policy from time to time as required under law. Thus, User is advised to review this page periodically for any changes, since any such changes will be effective immediately after they are updated/posted on this page.</p>
-
+        
+         <h2 className="text-xl font-semibold mb-2">Refund Policy:</h2>
+        <p className="mb-4">Please note that refunds are not initiated from our end under any circumstances.</p>
+              
         <h2 className="text-xl font-semibold mb-2">Contact Us:</h2>
         <p className="mb-4">In case if you may want to share your concern, we welcome you to easily reach out to us through email: <a href="mailto:getpaisa@propkar.com" className="text-blue-500 hover:underline">getpaisa@propkar.com</a></p>
     </div>
