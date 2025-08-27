@@ -5,6 +5,7 @@ import 'rsuite/dist/rsuite.min.css';
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
+
 const LoanCalculator: React.FC = () => {
     const [loanAmount, setLoanAmount] = useState<number>(500000); 
     const [rate, setRate] = useState<number>(8.5);
