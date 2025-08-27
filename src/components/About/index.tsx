@@ -29,7 +29,6 @@ const About = () => {
                 </a>
               </div>
             </div>
-
             <div className="w-full px-4 lg:w-1/2">
 
               <div className="px-2 w-full sm:px-4 mt-8 lg:px-2 xl:px-4">
